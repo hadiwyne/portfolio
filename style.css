@@ -321,6 +321,7 @@ section{
 .selection__text__p1, .title {
     text-align: center;
     cursor: default;
+    text-shadow: -3px 6px 7px #cbcbcb;
 }
 
 .arrow{
@@ -414,6 +415,7 @@ article .icon{
 
 .section__text__p3 {
     font-style: italic;
+    text-shadow: -3px 6px 7px #cbcbcb;
 }
 
     #contact{
