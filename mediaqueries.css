@@ -43,6 +43,16 @@
     .about-containers{
         margin-top: 0;
     }
+    .about-containers, .text-container, .contact-info-upper-container {
+        opacity: 0; 
+        transition: opacity 1s, transform 1s; 
+    }
+
+    .about-containers.appear, .text-container.appear, .contact-info-upper-container.appear {
+        opacity: 1; 
+        transform: scale(1); 
+        animation: appear 1s linear forwards; 
+    }
 }
 
 
