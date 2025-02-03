@@ -116,7 +116,17 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 0 auto; /* Center the container */
+        margin: 0 auto; 
         padding: 1rem;
+    }
+    .about-containers, .text-container, .contact-info-upper-container {
+        opacity: 0; 
+        transition: opacity 1s, transform 1s; 
+    }
+
+    .about-containers.appear, .text-container.appear, .contact-info-upper-container.appear {
+        opacity: 1; 
+        transform: scale(1); 
+        animation: appear 1s linear forwards; 
     }
 }
