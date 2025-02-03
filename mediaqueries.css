@@ -43,6 +43,14 @@
     .about-containers{
         margin-top: 0;
     }
+    .section__text__p3 {
+        font-style: italic;
+        text-shadow: -3px 6px 7px #cbcbcb;
+    }
+    .selection__text__p1, .title {
+        text-shadow: -3px 6px 7px #cbcbcb;
+    }
+
 
 
 @media screen and (max-width: 600px) {
@@ -118,5 +126,12 @@
         margin: 0 auto; 
         padding: 1rem;
     }
+    }
+    .section__text__p3 {
+        font-style: italic;
+        text-shadow: -3px 6px 7px #cbcbcb;
+    }
+    .selection__text__p1, .title {
+        text-shadow: -3px 6px 7px #cbcbcb;
     }
 }
